@@ -28,7 +28,6 @@ function App() {
             Come join us!
           </p>
         <form className='flex flex-col w-full justify-center items-center'>
-          <img src='../public/android-chrome-512x512.png' alt='' />
           <input
             type='text'
             placeholder='Name'
