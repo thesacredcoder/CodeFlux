@@ -82,3 +82,9 @@
   left: 1.8rem;
   top: 0.6rem;
 }
+
+@media only screen and (max-width: 640px) {
+  .button:before, .button:after {
+    display: none;
+  }
+}
