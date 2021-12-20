@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* .button {
+  background: linear-gradient(60deg, #1256d4, rgb(199, 140, 3));
+} */
+
+
+.left{
+  background-color: #1256d4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  margin: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: #1256d4;
+  box-shadow: 1px 1px 10px rgba(50,50,50,.4);
+  transition: .3s all ease;
+  letter-spacing: .1rem;
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-left: 2rem;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button:after,
+.button:before {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: .3s all ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:before {
+  content: '_';
+  position: absolute;
+  left: 1.8rem;
+  top: 0.7rem;
 }
 
-.App-link {
-  color: #61dafb;
+.button:after {
+  content: '>';
+  position: absolute;
+  left: 1rem;
+  top: 0.9rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:hover {
+  box-shadow: 1px 1px 20px rgba(150,150,150,.2);
+  top: -.1rem;
+  right: -.1rem;
+  cursor: pointer;
+  background-color: rgb(236, 137, 8);
+}
+
+.button:hover:before {
+  content: '_';
+  position: absolute;
+  left: 1.3rem;
+  top: .3rem;
+  transform: translateY(-0.5px);
+}
+
+.button:hover:after {
+  content: '>';
+  position: absolute;
+  left: 1.8rem;
+  top: 0.6rem;
 }
