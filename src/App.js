@@ -17,17 +17,20 @@ function App() {
           {/* <h5 className='fixed top-5 right-5 title text-black font-brand text-3xl font-medium mb-2 uppercase'>
             codeflux
           </h5> */}
-          <img className='fixed top-5 right-5 h-16 md:hidden' src={Logo} alt='' />
+          <img
+            className='fixed top-5 right-5 h-16 md:hidden'
+            src={Logo}
+            alt=''
+          />
 
           <div className='mb-0 h-[250px] w-[300px] lg:h-[250px] lg:w-[300px] md:h-[200px] md:w-[250px]'>
             {/* <img src={Logo} alt="" /> */}
             <img src={leftbg1} alt='' />
           </div>
-
         </div>
-          <p className='regis mb-8 font-lg text-main font-brand uppercase font-bold'>
-            Come join us!
-          </p>
+        <p className='regis mb-8 font-lg text-main font-brand uppercase font-bold'>
+          Come join us!
+        </p>
         <form className='flex flex-col w-full justify-center items-center'>
           <input
             type='text'
@@ -39,9 +42,8 @@ function App() {
             placeholder='Email'
             className='mb-4 p-4 w-full md:w-4/5 lg:w-3/5 border-2 rounded-lg outline-main'
           />
-          <button className='button bg-second p-4 rounded-lg text-white font-brand uppercase font-bold tracking-wider w-full md:w-4/5 lg:w-3/5 ease-out transition-all'>
-            {/* <button className="button p-4 rounded-lg text-white font-brand uppercase font-bold tracking-wider w-1/2 ease-out transition-all"> */}
-            Register Now
+          <button className=' button bg-second p-4 rounded-lg text-white font-brand uppercase font-bold tracking-wider w-full md:w-4/5 lg:w-3/5 ease-out transition-all'>
+            <div className='button-text sm:ml-8 md:ml-8'>Register Now</div>
           </button>
         </form>
       </div>
