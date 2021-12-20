@@ -2,25 +2,38 @@
   background: linear-gradient(60deg, #1256d4, rgb(199, 140, 3));
 } */
 
+.title {
+  background: -webkit-linear-gradient(90deg, #0d5d5d, #14b5bb, #0d5d5d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
 
 .left{
-  background-color: #1256d4;
+  background: linear-gradient(60deg, #0d5d5d, #14b5bb);
 }
+
+.regis {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
 
 .button {
   margin: auto;
   padding: 1rem;
   text-transform: uppercase;
   color: #fafafa;
-  background-color: #1256d4;
+  /* background-color: #1256d4; */
+  background: linear-gradient(60deg, #0d5d5d, #14b5bb, #0d5d5d);
   box-shadow: 1px 1px 10px rgba(50,50,50,.4);
   transition: .3s all ease;
   letter-spacing: .1rem;
   position: relative;
   top: 0;
   right: 0;
-  padding-left: 2rem;
-
+  padding-left: 1rem;
+  transition: background 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .button:after,
@@ -42,7 +55,7 @@
   content: '>';
   position: absolute;
   left: 1rem;
-  top: 0.9rem;
+  top: 0.8rem;
 }
 
 .button:hover {
@@ -50,7 +63,9 @@
   top: -.1rem;
   right: -.1rem;
   cursor: pointer;
-  background-color: rgb(236, 137, 8);
+  /* background-color: rgb(236, 137, 8); */
+  padding: 1rem;
+  background: linear-gradient(60deg, #0d5d5d, #14b5bb);
 }
 
 .button:hover:before {
