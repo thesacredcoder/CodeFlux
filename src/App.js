@@ -1,34 +1,34 @@
 import "./App.css";
 import Logo from "./assets/logo.png";
-import Joi from "joi";
+// import Joi from "joi";
 import { useState } from "react";
-import { Formik, Form, Field } from "formik";
-import * as Yup from "yup";
+// import { Formik, Form, Field } from "formik";
+// import * as Yup from "yup";
 
 import { createUser } from "./api";
 import leftbg1 from "./assets/leftbg1.svg";
 
-const userSchema = Yup.object().shape({
-  name: Yup.string().min(3, "Too Short").max(30, "Too long").required(),
-  email: Yup.string().email().required(),
-});
+// const userSchema = Yup.object().shape({
+//   name: Yup.string().min(3, "Too Short").max(30, "Too long").required(),
+//   email: Yup.string().email().required(),
+// });
 
 function App() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
   });
-  const [errors, setErrors] = useState({});
+  // const [errors, setErrors] = useState({});
 
-  const schema = Joi.object({
-    name: Joi.string().alphanum().min(3).max(30).required().label("Name"),
-    email: Joi.string()
-      .email({
-        minDomainSegments: 2,
-        tlds: { allow: ["com", "net"] },
-      })
-      .label("Email"),
-  });
+  // const schema = Joi.object({
+  //   name: Joi.string().alphanum().min(3).max(30).required().label("Name"),
+  //   email: Joi.string()
+  //     .email({
+  //       minDomainSegments: 2,
+  //       tlds: { allow: ["com", "net"] },
+  //     })
+  //     .label("Email"),
+  // });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
