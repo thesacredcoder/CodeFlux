@@ -25,6 +25,7 @@ function App() {
         <div>
           <a
             href="https://forms.gle/KUmcGHqrgzH1uHyR8"
+            rel="noreferrer"
             target="_blank"
             class="relative inline-block text-lg group"
           >
