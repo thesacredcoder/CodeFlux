@@ -5,16 +5,16 @@ import leftbg1 from "./assets/leftbg1.svg";
 
 function App() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="main flex justify-center items-center">
       <div className="left w-0 hover:bg-second h-screen md:w-1/2 lg:w-2/5 flex flex-col justify-center items-center">
         <img src={NewLogo} alt="" className="h-96 w-96" />
-        <p className="text-white font-accent text-2xl -mt-14">
+        <p className="tagline text-white font-accent text-2xl -mt-14">
           Coding Made Simple!
         </p>
       </div>
       <div className="flex flex-col justify-center items-center w-4/5 sm:w-3/5 md:w-1/2 lg:w-3/5">
         <div className="flex flex-col justify-center items-center mb-16">
-          <img className="fixed top-5 h-16 md:hidden" src={NewLogo} alt="" />
+          <img className="fixed top-5 h-24 md:hidden" src={NewLogo} alt="" />
           <div className="mb-0 h-[250px] w-[300px] lg:h-[250px] lg:w-[300px] md:h-[200px] md:w-[250px]">
             <img src={leftbg1} alt="" />
           </div>
