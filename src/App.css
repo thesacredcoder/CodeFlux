@@ -23,6 +23,11 @@
   color: #4e1081;
 }
 
+.about {
+  font-size: 16px;
+  color: #4e1081;
+}
+
 
 .button {
   margin: auto;
@@ -95,10 +100,6 @@
     display: none;
   }
 
-  .main {
-    background: linear-gradient(60deg, #000000, #280446);
-  }
-
   .tagline{
     display: none;
   }
@@ -113,7 +114,7 @@
     display: none;
   }
 
-  .regis{
+  .regis, .about{
     color: white;
   }
 }

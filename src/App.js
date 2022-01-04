@@ -14,13 +14,17 @@ function App() {
       </div>
       <div className="flex flex-col justify-center items-center w-4/5 sm:w-3/5 md:w-1/2 lg:w-3/5">
         <div className="flex flex-col justify-center items-center mb-16">
-          <img className="fixed top-5 h-24 md:hidden" src={NewLogo} alt="" />
+          <img className="fixed top-4 h-24 md:hidden" src={NewLogo} alt="" />
+
           <div className="mb-0 h-[250px] w-[300px] lg:h-[250px] lg:w-[300px] md:h-[200px] md:w-[250px]">
             <img src={leftbg1} alt="" />
           </div>
         </div>
-        <p className="regis mb-8 font-lg text-main font-brand uppercase font-bold">
+        <p className="regis font-lg text-main font-brand uppercase font-bold">
           Come join us!
+        </p>
+        <p className="about text-center text-white font-accent text-2xl my-4 md:mx-4 lg:mx-16 xl:mx-48">
+          We are here to make your coding journey a better experience with our guided learning in domains you want to pursue.
         </p>
         <div>
           <a
