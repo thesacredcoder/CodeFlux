@@ -28,7 +28,7 @@ function App() {
         </p>
         <div>
           <a
-            href="https://forms.office.com/Pages/ResponsePage.aspx?id=5ITwTG7NG0CI9lGr5WLcmlIDCuSVZ0BEkI_urfJP8rRUNDZaTjRVNEJQVjRaMkZETURDMVY3QTcxNy4u"
+            href="https://forms.gle/1j8TCQPzV5B4kdWc8"
             rel="noreferrer"
             target="_blank"
             class="relative inline-block text-lg group"
